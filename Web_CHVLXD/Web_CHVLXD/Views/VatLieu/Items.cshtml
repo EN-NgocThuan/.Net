@@ -1,0 +1,31 @@
+﻿@{
+    ViewBag.Title = "View";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<html lang="en">
+<head>
+    <link href="~/Content/Item-form.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="container">
+        @foreach (var item in Model)
+        {
+            <div class="card-item">
+                <div class="img-item">
+                    <img src="~/App_Data/web_img/Logo.png" />
+                </div>
+                <br>
+                <div>
+                    <h1>Tên vật liệu :@item.TENVATLIEU</h1>
+                </div>
+                <br>
+                <div class="btn-show-item">
+                    <input type="submit" value="Xem thong tin">
+                </div>
+            </div>
+        }
+
+    </div>
+</body>
+</html>
+

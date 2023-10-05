@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11.25, 9" name="QL_VLXD">
+  <DataContextMoniker Name="/QL_VLXDDataContext" />
+  <nestedChildShapes>
+    <classShape Id="f80736df-18d8-4099-a08d-d8c6a76de5da" absoluteBounds="9, 0.75, 2, 2.1554996744791666">
+      <DataClassMoniker Name="/QL_VLXDDataContext/CTHOADON" />
+      <nestedChildShapes>
+        <elementListCompartment Id="2f79f346-6a4a-4af8-b32e-ee3f8cc15163" absoluteBounds="9.015, 1.21, 1.9700000000000002, 1.5954996744791665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="bde8339b-8240-4186-8eae-c97f150778c3" absoluteBounds="3.5, 7.25, 2, 1.1939925130208344">
+      <DataClassMoniker Name="/QL_VLXDDataContext/VATLIEU" />
+      <nestedChildShapes>
+        <elementListCompartment Id="059fd0cc-996e-471e-95ae-c161a363403e" absoluteBounds="3.515, 7.71, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="8615d967-d88b-4943-b7ef-ec7a8c551ebb" absoluteBounds="6.25, 7, 2, 1.7708968098958318">
+      <DataClassMoniker Name="/QL_VLXDDataContext/CTVATLIEU" />
+      <nestedChildShapes>
+        <elementListCompartment Id="49869e46-697e-4ed5-97aa-a028359d9dcd" absoluteBounds="6.265, 7.46, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="061cb933-264c-4973-ba07-c5fca0912104" absoluteBounds="6.25, 1.125, 2, 1.5785953776041666">
+      <DataClassMoniker Name="/QL_VLXDDataContext/HOADON" />
+      <nestedChildShapes>
+        <elementListCompartment Id="8cbd93cf-b2be-4bd9-8e76-aefd37b3f7a9" absoluteBounds="6.265, 1.585, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="27192629-c46e-46f7-8e30-8f8b5702b43a" absoluteBounds="3.5, 3.75, 2, 2.155499674479167">
+      <DataClassMoniker Name="/QL_VLXDDataContext/IMFOR_USERACCOUNT" />
+      <nestedChildShapes>
+        <elementListCompartment Id="3125e108-0240-49bd-b05e-87f7b5eb9397" absoluteBounds="3.515, 4.21, 1.9700000000000002, 1.5954996744791665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="7ee8749a-bf94-4020-b7fb-8a5934936787" absoluteBounds="6.25, 4, 2, 1.5785953776041666">
+      <DataClassMoniker Name="/QL_VLXDDataContext/KHO" />
+      <nestedChildShapes>
+        <elementListCompartment Id="3bbf833b-d767-47c3-970e-89d12a5fd301" absoluteBounds="6.265, 4.46, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="89c6c0f3-17a9-4a19-88db-315c015ab117" absoluteBounds="9, 4, 2, 1.7708968098958326">
+      <DataClassMoniker Name="/QL_VLXDDataContext/QLKHO" />
+      <nestedChildShapes>
+        <elementListCompartment Id="3b98eaff-1d9c-4e02-bd13-233ca52c94be" absoluteBounds="9.015, 4.46, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="95c26a68-e75d-4d11-8a07-31ccbb7ce6b3" absoluteBounds="0.75, 4.125, 2, 1.3862939453124996">
+      <DataClassMoniker Name="/QL_VLXDDataContext/USERACCOUNT" />
+      <nestedChildShapes>
+        <elementListCompartment Id="9db2a5b3-05a2-4593-9c65-088e1b746a93" absoluteBounds="0.765, 4.585, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(5.5 : 7.84699625651042); (6.25 : 7.84699625651042)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/QL_VLXDDataContext/VATLIEU/VATLIEU_CTVATLIEU" />
+      <nodes>
+        <classShapeMoniker Id="bde8339b-8240-4186-8eae-c97f150778c3" />
+        <classShapeMoniker Id="8615d967-d88b-4943-b7ef-ec7a8c551ebb" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(8.25 : 1.91429768880208); (8.54166666666667 : 1.91429768880208 : JumpStart); (8.70833333333333 : 1.91429768880208 : JumpEnd); (9 : 1.91429768880208)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/QL_VLXDDataContext/HOADON/HOADON_CTHOADON" />
+      <nodes>
+        <classShapeMoniker Id="061cb933-264c-4973-ba07-c5fca0912104" />
+        <classShapeMoniker Id="f80736df-18d8-4099-a08d-d8c6a76de5da" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(8.25 : 4); (8.625 : 3.625); (8.625 : 1.30089684440104); (9 : 1.30089684440104)]" fixedFrom="NotFixed" fixedTo="Algorithm">
+      <AssociationMoniker Name="/QL_VLXDDataContext/KHO/KHO_CTHOADON" />
+      <nodes>
+        <classShapeMoniker Id="7ee8749a-bf94-4020-b7fb-8a5934936787" />
+        <classShapeMoniker Id="f80736df-18d8-4099-a08d-d8c6a76de5da" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(5.5 : 4.78929768880208); (6.25 : 4.78929768880208)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/QL_VLXDDataContext/IMFOR_USERACCOUNT/IMFOR_USERACCOUNT_KHO" />
+      <nodes>
+        <classShapeMoniker Id="27192629-c46e-46f7-8e30-8f8b5702b43a" />
+        <classShapeMoniker Id="7ee8749a-bf94-4020-b7fb-8a5934936787" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(8.25 : 4.82055018880208); (9 : 4.82055018880208)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/QL_VLXDDataContext/KHO/KHO_QLKHO" />
+      <nodes>
+        <classShapeMoniker Id="7ee8749a-bf94-4020-b7fb-8a5934936787" />
+        <classShapeMoniker Id="89c6c0f3-17a9-4a19-88db-315c015ab117" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(8.25 : 7.88544840494792); (10 : 7.88544840494792); (10 : 5.77089680989583)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/QL_VLXDDataContext/CTVATLIEU/CTVATLIEU_QLKHO" />
+      <nodes>
+        <classShapeMoniker Id="8615d967-d88b-4943-b7ef-ec7a8c551ebb" />
+        <classShapeMoniker Id="89c6c0f3-17a9-4a19-88db-315c015ab117" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.75 : 4.81814697265625); (3.5 : 4.81814697265625)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/QL_VLXDDataContext/USERACCOUNT/USERACCOUNT_IMFOR_USERACCOUNT" />
+      <nodes>
+        <classShapeMoniker Id="95c26a68-e75d-4d11-8a07-31ccbb7ce6b3" />
+        <classShapeMoniker Id="27192629-c46e-46f7-8e30-8f8b5702b43a" />
+      </nodes>
+    </associationConnector>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

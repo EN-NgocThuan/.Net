@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33103.184
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Web_CHVLXD", "Web_CHVLXD\Web_CHVLXD.csproj", "{91A78660-28B3-404C-A531-3DE74EFF57AC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{91A78660-28B3-404C-A531-3DE74EFF57AC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{91A78660-28B3-404C-A531-3DE74EFF57AC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{91A78660-28B3-404C-A531-3DE74EFF57AC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{91A78660-28B3-404C-A531-3DE74EFF57AC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {22A8F6A0-A359-4187-9FF6-494A7A1B6330}
+	EndGlobalSection
+EndGlobal
