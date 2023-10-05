@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11.25, 9" name="QL_VATLIEU">
+  <DataContextMoniker Name="/QL_VATLIEUDataContext" />
+  <nestedChildShapes>
+    <classShape Id="b7c41587-be00-4ad8-bf6f-25740cbb3f67" absoluteBounds="9, 0.75, 2, 2.1554996744791666">
+      <DataClassMoniker Name="/QL_VATLIEUDataContext/CTHOADON" />
+      <nestedChildShapes>
+        <elementListCompartment Id="5051f22b-1d28-46a8-a92a-7529997c89e1" absoluteBounds="9.015, 1.21, 1.9700000000000002, 1.5954996744791665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="8becd9c0-fc61-4a90-bba6-81672839ec09" absoluteBounds="3.5, 7.25, 2, 1.1939925130208344">
+      <DataClassMoniker Name="/QL_VATLIEUDataContext/VATLIEU" />
+      <nestedChildShapes>
+        <elementListCompartment Id="38272216-0fe2-4460-925b-65f48b4ca314" absoluteBounds="3.515, 7.71, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="2f67832d-5d57-48c1-af05-ce67ce768a12" absoluteBounds="6.25, 7, 2, 1.7708968098958318">
+      <DataClassMoniker Name="/QL_VATLIEUDataContext/CTVATLIEU" />
+      <nestedChildShapes>
+        <elementListCompartment Id="ebba53e5-b45f-4cd7-ae14-a1a3861f1213" absoluteBounds="6.265, 7.46, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="55cab744-5644-4b50-b662-4dad477b68bd" absoluteBounds="6.25, 1.125, 2, 1.5785953776041666">
+      <DataClassMoniker Name="/QL_VATLIEUDataContext/HOADON" />
+      <nestedChildShapes>
+        <elementListCompartment Id="07db76d2-fc95-4b4d-9e20-e6144e5dda5f" absoluteBounds="6.265, 1.585, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="72f5007d-4ebf-4e71-8308-eab4a43c10fd" absoluteBounds="3.5, 3.75, 2, 2.155499674479167">
+      <DataClassMoniker Name="/QL_VATLIEUDataContext/IMFOR_USERACCOUNT" />
+      <nestedChildShapes>
+        <elementListCompartment Id="a31b57ac-4afb-4435-82ee-c463219167ec" absoluteBounds="3.515, 4.21, 1.9700000000000002, 1.5954996744791665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="b5a27a3d-060f-4afa-ad79-e1c421b7a88d" absoluteBounds="6.25, 4, 2, 1.5785953776041666">
+      <DataClassMoniker Name="/QL_VATLIEUDataContext/KHO" />
+      <nestedChildShapes>
+        <elementListCompartment Id="7f5f0cf8-4c39-4290-a38b-d7d0df768994" absoluteBounds="6.265, 4.46, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="3cc65d7f-5071-4bd1-90f7-0da988c6882a" absoluteBounds="9, 4, 2, 1.7708968098958326">
+      <DataClassMoniker Name="/QL_VATLIEUDataContext/QLKHO" />
+      <nestedChildShapes>
+        <elementListCompartment Id="5d49272c-daa6-4ea6-bd51-1ee7e2b2c564" absoluteBounds="9.015, 4.46, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="7c680b66-5619-4ed6-912b-4da15e22be17" absoluteBounds="0.75, 4.125, 2, 1.3862939453124996">
+      <DataClassMoniker Name="/QL_VATLIEUDataContext/USERACCOUNT" />
+      <nestedChildShapes>
+        <elementListCompartment Id="c19c0212-b05a-494e-adcf-d8abae8eb349" absoluteBounds="0.765, 4.585, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(5.5 : 7.84699625651042); (6.25 : 7.84699625651042)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/QL_VATLIEUDataContext/VATLIEU/VATLIEU_CTVATLIEU" />
+      <nodes>
+        <classShapeMoniker Id="8becd9c0-fc61-4a90-bba6-81672839ec09" />
+        <classShapeMoniker Id="2f67832d-5d57-48c1-af05-ce67ce768a12" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(8.25 : 1.91429768880208); (8.54166666666667 : 1.91429768880208 : JumpStart); (8.70833333333333 : 1.91429768880208 : JumpEnd); (9 : 1.91429768880208)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/QL_VATLIEUDataContext/HOADON/HOADON_CTHOADON" />
+      <nodes>
+        <classShapeMoniker Id="55cab744-5644-4b50-b662-4dad477b68bd" />
+        <classShapeMoniker Id="b7c41587-be00-4ad8-bf6f-25740cbb3f67" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(8.25 : 4); (8.625 : 3.625); (8.625 : 1.30089684440104); (9 : 1.30089684440104)]" fixedFrom="NotFixed" fixedTo="Algorithm">
+      <AssociationMoniker Name="/QL_VATLIEUDataContext/KHO/KHO_CTHOADON" />
+      <nodes>
+        <classShapeMoniker Id="b5a27a3d-060f-4afa-ad79-e1c421b7a88d" />
+        <classShapeMoniker Id="b7c41587-be00-4ad8-bf6f-25740cbb3f67" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(5.5 : 4.78929768880208); (6.25 : 4.78929768880208)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/QL_VATLIEUDataContext/IMFOR_USERACCOUNT/IMFOR_USERACCOUNT_KHO" />
+      <nodes>
+        <classShapeMoniker Id="72f5007d-4ebf-4e71-8308-eab4a43c10fd" />
+        <classShapeMoniker Id="b5a27a3d-060f-4afa-ad79-e1c421b7a88d" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(8.25 : 4.82055018880208); (9 : 4.82055018880208)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/QL_VATLIEUDataContext/KHO/KHO_QLKHO" />
+      <nodes>
+        <classShapeMoniker Id="b5a27a3d-060f-4afa-ad79-e1c421b7a88d" />
+        <classShapeMoniker Id="3cc65d7f-5071-4bd1-90f7-0da988c6882a" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(8.25 : 7.88544840494792); (10 : 7.88544840494792); (10 : 5.77089680989583)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/QL_VATLIEUDataContext/CTVATLIEU/CTVATLIEU_QLKHO" />
+      <nodes>
+        <classShapeMoniker Id="2f67832d-5d57-48c1-af05-ce67ce768a12" />
+        <classShapeMoniker Id="3cc65d7f-5071-4bd1-90f7-0da988c6882a" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.75 : 4.81814697265625); (3.5 : 4.81814697265625)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/QL_VATLIEUDataContext/USERACCOUNT/USERACCOUNT_IMFOR_USERACCOUNT" />
+      <nodes>
+        <classShapeMoniker Id="7c680b66-5619-4ed6-912b-4da15e22be17" />
+        <classShapeMoniker Id="72f5007d-4ebf-4e71-8308-eab4a43c10fd" />
+      </nodes>
+    </associationConnector>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>
